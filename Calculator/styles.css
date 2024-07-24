@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+background-color: #e6bc96;}
+
+/*##########                                ############
+############        cal eke athule tika    #############*/
+
+.calculator {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background-image: url("background.jpg");
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #a32929;
+    border-radius: 6px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+/*############# buttons tika      #########*/
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+
+/*##########    button animation      ########*/
+
+.button-hover:hover {
+    background-color: #17d3a4;
+}
+
+
+button:hover {
+    background-color: #0a9471;
+}
+
